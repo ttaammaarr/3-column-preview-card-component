@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+body {
+  font-family: 'lexend Deca';
+  font-size: 15px;
+  background-color: hsl(0, 0%, 95%);
+  padding: 80px 20px;
+}
+
+p {
+  color: hsla(0, 0%, 100%, 0.75);
+  line-height: 26px;
+}
+
+h1 {
+  font-family: 'big shoulders display';
+  font-size: 38px;
+  color: hsl(0, 0%, 95%);
+}
+
+section {
+  padding: 48px;
+}
+
+.sedans {
+  background-color: hsl(31, 77%, 52%);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.suvs {
+  background-color: hsl(184, 100%, 22%);
+}
+.luxury {
+  background-color: hsl(179, 100%, 13%);
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+button {
+  font-size: 15px;
+  font-family: 'lexend deca';
+  background-color: hsl(0, 0%, 95%);
+  border: none;
+  padding: 14px 28px;
+  border-radius: 50px;
+  margin-top: 70px;
+}
+
+.button-sedans {
+  color: hsl(31, 77%, 52%);
+}
+
+.button-suvs {
+  color: hsl(184, 100%, 22%)
+}
+
+.button-luxury {
+  color: hsl(179, 100%, 13%);
+}
+
+.button-sedans:hover {
+  background-color: transparent;
+  color: white;
+  border: 2px solid white;
+  cursor: pointer;
+  padding: 12px 26px;
+  transition: .5s;
+}
+
+.button-suvs:hover {
+  background-color: transparent;
+  color: white;
+  border: 2px solid white;
+  cursor: pointer;
+  padding: 12px 26px;
+  transition: .5s;
+}
+
+.button-luxury:hover {
+  background-color: transparent;
+  color: white;
+  border: 2px solid white;
+  cursor: pointer;
+  padding: 12px 26px;
+  transition: .5s;
+}
+
+
+.attribution { 
+  font-size: 11px; text-align: center;
+  margin-top: 20px; 
+}
+.attribution a {
+   color: hsl(228, 45%, 44%); 
+}
+
+
+@media only screen and (min-width: 768px) {
+
+  main {
+    margin: auto;
+    display: flex;
+    max-width: 1000px;
+  }
+
+  .sedans {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 10px;
+  }
+  .luxury {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+}
