@@ -10,6 +10,7 @@ body {
 p {
   color: hsla(0, 0%, 100%, 0.75);
   line-height: 26px;
+  margin-bottom: 70px;
 }
 
 h1 {
@@ -43,7 +44,6 @@ button {
   border: none;
   padding: 14px 28px;
   border-radius: 50px;
-  margin-top: 70px;
 }
 
 .button-sedans {
@@ -106,6 +106,7 @@ button {
   section {
     display: flex;
     flex-direction: column;
+    
   }
 
   img {
@@ -116,13 +117,11 @@ button {
   button {
     margin-top: auto;
   }
-  
   .sedans {
     border-top-left-radius: 10px;
     border-top-right-radius: 0;
     border-bottom-left-radius: 10px;
   }
-  
   .luxury {
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 10px;
